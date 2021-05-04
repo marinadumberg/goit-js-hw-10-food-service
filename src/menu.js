@@ -1,5 +1,5 @@
-import menuTemplate from './src/templates/menu.hbs';
-import menuList from './src/menu.json';
+import menuTemplate from './templates/menu.hbs';
+import menuList from './menu.json';
 
 const menu = document.querySelector(".js-menu");
 function menuTemplateCards(menuList) {
