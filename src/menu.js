@@ -17,7 +17,7 @@ const Theme = {
 
 const themeSwich = document.querySelector('.theme-switch__toggle');
 console.log(themeSwich);
-themeSwich.addEventListener('click,onThemeSwich');
+themeSwich.addEventListener('click',onThemeSwich);
 
 const savedTheme = localStorage.getItem('theme');
 const themeOn = JSON.parse(localStorage.getItem('swiched'));
